@@ -1,0 +1,14 @@
+.block{
+    background-color: aqua;
+    width: 6.25em;
+    height: 43.75em;
+    transition: all 0.7s;
+    transition-timing-function:all cubic-bezier(1,-0.43, 0, 1.79);
+}
+.block:hover{
+    width: 700px;
+    background-color: red;
+}
+body{
+    width: 16px;
+}
